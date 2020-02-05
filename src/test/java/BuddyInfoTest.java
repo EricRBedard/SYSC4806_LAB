@@ -61,7 +61,7 @@ public class BuddyInfoTest {
 
 	@Test
 	public void testToString() {
-		assertEquals("toString should return a string containing the contents","Name: name Address: address Phone: 123",buddy.toString());
+		assertEquals("toString should return a string containing the contents","Id: null Name: name Address: address Phone: 123",buddy.toString());
 	}
 
 	@Test
